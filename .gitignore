@@ -1,0 +1,19 @@
+Ignore compiled Python files
+
+*.pyc
+*.pyo
+pycache/
+Ignore virtual environment
+
+venv/
+Ignore local Kubernetes configuration files
+
+kubeconfig-*
+Ignore sensitive files and directories
+
+secrets/
+config/secrets.yml
+Ignore editor backup files
+
+~
+..swp
